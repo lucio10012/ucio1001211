@@ -22,7 +22,7 @@ function drawChart() {
   // Solo mostramos la temperatura de la compostera
   var data = google.visualization.arrayToDataTable([
     ['Label', 'Value'],
-    ['Temp (°C)', 0]
+    ['', 0]
   ]);
 
   var options = {
